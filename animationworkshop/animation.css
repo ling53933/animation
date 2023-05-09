@@ -1,0 +1,11 @@
+.sprite {
+width: 500px;
+height: 500px;
+background: url('animation.png') 0 0 no-repeat;
+animation: blossominglady 4.5s steps(15) infinite;
+}
+
+@keyframes blossominglady {
+0%{background-position: 0px;}
+100%{background-position: -7500px}
+}
